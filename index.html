@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cutest World Clock</title>
+    <title>document</title>
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
+
   <body>
     <div class="container">
       <h1>Cutest World Clock</h1>
@@ -18,16 +21,7 @@
           <option value="Phuket">Phuket</option>
         </select>
       </div>
-      <div class="city">
-        <div>
-          <h2>Timbuktu</h2>
-
-          <div class="date">November 27th, 2023</div>
-        </div>
-        <div class="time">20:19:07</div>
-      </div>
-
-      <div class="city">
+      <div class="city" id="san-diego">
         <div>
           <h2>San Diego</h2>
 
@@ -35,17 +29,9 @@
         </div>
         <div class="time">20:19:07</div>
       </div>
-      <div class="city">
+      <div class="city" id="timbuktu">
         <div>
-          <h2>Bangkok</h2>
-
-          <div class="date">November 27th, 2023</div>
-        </div>
-        <div class="time">20:19:07</div>
-      </div>
-      <div class="city">
-        <div>
-          <h2>Phuket</h2>
+          <h2>Timbuktu</h2>
 
           <div class="date">November 27th, 2023</div>
         </div>
@@ -59,5 +45,6 @@
       >, available in GitHub, hosted by
       <a href="https://netlify.app">Netlify</a>
     </footer>
+    <script src="src/index.js"></script>
   </body>
 </html>
