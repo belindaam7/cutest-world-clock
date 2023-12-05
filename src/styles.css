@@ -14,6 +14,18 @@ footer {
   display: block;
   text-align: center;
 }
+a {
+  color: rgba(255, 0, 187, 0.405);
+}
+a .city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-bottom: inset rgba(228, 97, 200, 0.288);
+  border-radius: 10px 25px;
+  padding: 10px 25px;
+  box-shadow: 5px 5px 5px rgba(228, 97, 200, 0.288);
+}
 
 #city-selector {
   display: block;
