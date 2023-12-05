@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>document</title>
+    <title>Cutest World Clock</title>
     <link rel="stylesheet" href="src/styles.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
@@ -13,29 +13,31 @@
     <div class="container">
       <h1>Cutest World Clock</h1>
       <div class="dropdown">
-        <select name="" id="cities">
+        <select name="" id="city-selector">
           <option value="">Select a city</option>
-          <option value="Timbuktu">Timbuktu</option>
-          <option value="San Diego">San Diego</option>
-          <option value="Bangkok">Bangkok</option>
-          <option value="Phuket">Phuket</option>
+          <option value="Africa/Timbuktu">Timbuktu</option>
+          <option value="America/Tijuana">Tijuana</option>
+          <option value="Asia/Bangkok">Bangkok</option>
+          <option value="Pacific/Pohnpei">Pohnpei</option>
         </select>
       </div>
-      <div class="city" id="san-diego">
-        <div>
-          <h2>San Diego</h2>
+      <div id="cities">
+        <div class="city" id="san-diego">
+          <div>
+            <h2>Tijuana</h2>
 
-          <div class="date">November 27th, 2023</div>
+            <div class="date">November 27th, 2023</div>
+          </div>
+          <div class="time">20:19:07</div>
         </div>
-        <div class="time">20:19:07</div>
-      </div>
-      <div class="city" id="timbuktu">
-        <div>
-          <h2>Timbuktu</h2>
+        <div class="city" id="timbuktu">
+          <div>
+            <h2>Timbuktu</h2>
 
-          <div class="date">November 27th, 2023</div>
+            <div class="date">November 27th, 2023</div>
+          </div>
+          <div class="time">20:19:07</div>
         </div>
-        <div class="time">20:19:07</div>
       </div>
     </div>
     <footer>
